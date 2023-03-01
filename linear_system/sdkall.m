@@ -14,5 +14,5 @@ for i = 1:nmax
   [Bc, Br, rk] = sdk(n,l);
   printMatrix(Bc, "Bc");
   printMatrix(Br, "Bc rred");
-  fprintf("\nRank(Br) = %d\n", rk);
+  fprintf("\nRank(Bc rred) = %d\n", rk);
 end

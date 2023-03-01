@@ -9,5 +9,5 @@ for n = 1:9
   [Bc Br rk] = lq(n);
   printMatrix(Bc, "Bc");
   printMatrix(Br, "Bc rred");
-  fprintf("\nRank(Br) = %d\n", rk);
+  fprintf("\nRank(Bc rred) = %d\n", rk);
 end
