@@ -1,5 +1,7 @@
 % Print a Matrix in nice format
 %
+% Ralf Poeppel, 2023-01-09
+%
 function printMatrix(A, name)
   [r, c] = size(A);
 
